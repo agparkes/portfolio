@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="jQuery to do list input page">
+    <link rel="icon" href="../images/favicon.ico">
+        <title>jQuery To Do List</title>
+        
+        <link href="../assets/css/normalize.css" rel="stylesheet">
+        <link href="../assets/css/style.css" rel="stylesheet">
+        
+        <!-- jQuery UI CSS -->
+        <link href="../assets/css/jquery-ui.min.css" rel="stylesheet">
+    </head>
+    
+    <body id="todo">
+        
+        <div class="container" id="todoListWrapper">
+            <h1>The jQuery To Do List</h1>
+            
+            <div id="todoList">
+                <ul>
+                    <li class="listTitle">Monday</li>
+                    <li class="addItem"><input type="text" placeholder="add new item..."></li>
+                </ul>
+                <ul>
+                    <li class="listTitle">Tuesday</li>
+                    <li class="addItem"><input type="text" placeholder="add new item..."></li>
+                </ul>
+                <ul>
+                    <li class="listTitle">Wednesday</li>
+                    <li class="addItem"><input type="text" placeholder="add new item..."></li>
+                </ul>
+                <ul>
+                    <li class="listTitle">Thursday</li>
+                    <li class="addItem"><input type="text" placeholder="add new item..."></li>
+                </ul>
+                <ul>
+                    <li class="listTitle">Friday</li>
+                    <li class="addItem"><input type="text" placeholder="add new item..."></li>
+                </ul>
+                <ul>
+                    <li class="listTitle">Saturday</li>
+                    <li class="addItem"><input type="text" placeholder="add new item..."></li>
+                </ul>
+                <ul>
+                    <li class="listTitle">Sunday</li>
+                    <li class="addItem"><input type="text" placeholder="add new item..."></li>
+                </ul>
+            </div><!-- #todoList -->
+            
+        </div><!-- .container -->
+        
+        <div id="trash">drop here to delete an item</div>
+        
+        <div class="container">
+<!--            <div class="inner">-->
+<!--				<h1>Generic Page</h1>-->
+<!--				<span class="image main"><img src="images/pic13.jpg" alt="" /></span>-->
+				<p>This is a to-do-list interface that has weekdays layout. You can add an item by hovering over a day and adding a new item.</p>
+				<p>List items are draggable and droppable within the same weekday or across weekdays.</p>
+				<p>Finally, list items can be drag drop into a delete box.</p>
+<!--			</div>-->
+		</div>
+        
+        <!-- Load the CDN first -->
+        <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+        
+<!--         If CDN fails to load, serve up the local version -->
+        <script>window.jQuery || document.write('<script src="assests/js/jquery-2.1.4.js"><\/script>');</script>
+        
+<!--         jQuery UI -->
+        <script src="../assets/js/jquery-ui.min.js"></script>
+        
+        <script src="../assets/js/todolist.js"></script>
+    </body>
+    
+</html>
+
